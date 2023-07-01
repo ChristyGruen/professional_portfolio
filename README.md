@@ -35,7 +35,7 @@ Create a professional portfolio website. User Story and Acceptance Criteria prov
 <!-- The professional portfolio provides the requested information and meets the specified acceptance criteria. -->
 
 <!-- markdown embed image -->
-![professional portfolio - Chris Gruenhagen](./assets/images/portfolio1.png)
+![professional portfolio - Chris Gruenhagen](./Assets/images/portfolio1.png)
 
 ## Website Link
 
