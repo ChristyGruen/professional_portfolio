@@ -32,10 +32,10 @@ Create a professional portfolio website. User Story and Acceptance Criteria prov
   ```
 ## Website Screenshot
 
-The professional portfolio provides the requested information and meets the specified acceptance criteria.
+<!-- The professional portfolio provides the requested information and meets the specified acceptance criteria. -->
 
 <!-- markdown embed image -->
-![professional portfolio - Chris Gruenhagen](./assets/images/Horiseon-updated.png)
+![professional portfolio - Chris Gruenhagen](./assets/images/portfolio1.png)
 
 ## Website Link
 
@@ -47,6 +47,9 @@ The professional portfolio provides the requested information and meets the spec
   #### Chris Gruenhagen 1July2023
 😸😸😸😸😸😸😸😸😸😸
 
+
+<!--
+Homework Instructions 
 
 # 02 Advanced CSS: Portfolio
 
@@ -153,4 +156,4 @@ You are required to submit BOTH of the following for review:
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
 - - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved. -->
