@@ -1,22 +1,26 @@
-.header_background{
-  height: 320px;
-  width: 100%;
-  margin-bottom: 25px;
-  background-image: url("../images/tableau2.jpg");
+
+.chris{
+  height: 700px;
+  width: 40%;
+  background-image: url("../images/cg.png");
   background-size: cover;
   background-position: center;
+  opacity: 50%;
 }
 
 
 header {
   padding: 20px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Montserrat','Open Sans', sans-serif;
 
+  background-color: rgb(31, 85, 70, 0.6)
+  /* background-color: rgba(20, 43, 37, 0.404) */
+  
   /* gradient left right */
-  background: #3f3fc5;
+  /* background: #3f3fc5;
   background: linear-gradient(180deg,#3f3fc5 0%, #5aa7bb 50%, #a924a9 100%);
   background: -webkit-linear-gradient(180deg,#3f3fc5 0%, #5aa7bb 50%, #a924a9 100%);
-  background: -moz-linear-gradient(180deg,#3f3fc5 0%, #5aa7bb 50%, #a924a9 100%);
+  background: -moz-linear-gradient(180deg,#3f3fc5 0%, #5aa7bb 50%, #a924a9 100%); */
 
 
 
@@ -40,8 +44,9 @@ header {
 
 header h1 {
   display: inline-block;
-  font-size: 48px;
+  font-size: 44px;
   color: #ffffff;
+
   /* using the text fill made the edges of the letter really hazy */
   /* -webkit-text-fill-color: #ffffff;
   -webkit-text-stroke-width: 1px;
@@ -52,8 +57,9 @@ header nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;  
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Montserrat','Open Sans', sans-serif;
   font-size: 20px;
+  
 }
 
 header nav ul {
@@ -63,4 +69,92 @@ header nav ul {
 header nav ul li {
   display: inline-block;
   margin-left: 25px;
+}
+
+header nav ul li a{
+  /* color: #ffffff */
+  color: rgb(31, 85, 70, 80%);
+}
+
+
+
+main{
+  display: flex;
+  color: #333333;
+  font-family: 'Trebuchet MS', sans-serif;
+
+  /* font-size: medium; */
+}
+
+main aside{
+  height: 700px;
+  width: 60%;
+}
+
+main aside section h2{
+  font-size: x-large;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+main aside section h3{
+  font-size: large;
+}
+main aside section p{
+  font-size:medium;
+}
+
+main aside section ul li span{
+  font-size:medium;
+}
+
+footer {
+  background-color: rgb(31, 85, 70, 0.2);
+  color: rgb(31, 85, 70, 80%);
+  padding: 15px;
+
+}
+
+.bigWork{
+  display: flex;
+  justify-content: center;
+
+}
+
+.littleWork{
+  display: flex;
+  justify-content: space-between;
+}
+
+#bigCard {
+  flex: 1 0 400px;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  margin: 10px;
+}
+
+#littleCard{
+  flex: 1 0 200px;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  margin: 10px;
+}
+
+#aboutMe{
+  margin: 10px;
+  padding: 2px;
+  height: 20%;
+}
+#work{
+  margin: 10px;
+  padding: 2px;
+  height: 60%;
+}
+#contactMe{
+  margin: 10px;
+  padding: 2px;
+  height:20%;
 }
